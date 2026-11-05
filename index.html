@@ -1,195 +1,127 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Rajat Jain — Senior Software Engineer specializing in React, TypeScript, AI-powered applications and full-stack development." />
-  <meta name="theme-color" content="#0b1020" />
-  <title>Rajat Jain | Senior Software Engineer</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css" />
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Rajat Jain — Full-Stack Software Engineer working across React, Node.js, Python and AI-powered applications.">
+<title>Rajat Jain | Full-Stack Software Engineer</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+:root{--paper:#f7f8f5;--white:#fff;--ink:#17221f;--muted:#64716c;--line:#e3e9e4;--green:#176b56;--mint:#e3f2e9;--blue:#edf3fb;--shadow:0 18px 55px rgba(31,58,47,.09);--max:1120px}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--paper);color:var(--ink);font:16px/1.7 "DM Sans",sans-serif}a{color:inherit;text-decoration:none}.wrap{width:min(var(--max),calc(100% - 44px));margin:auto}
+header{position:sticky;top:0;z-index:20;background:rgba(247,248,245,.9);backdrop-filter:blur(16px);border-bottom:1px solid rgba(220,229,222,.85)}
+nav{height:74px;display:flex;align-items:center;justify-content:space-between}.logo{font:800 20px Manrope;letter-spacing:-1px}.logo span{color:var(--green)}.navlinks{display:flex;gap:26px;font-size:13px;font-weight:600;color:#65716c}.navlinks a{transition:color .2s}.navlinks a:hover{color:var(--green)}
+.hero{padding:96px 0 86px;display:grid;grid-template-columns:1.35fr .65fr;gap:60px;align-items:center;position:relative}.hero:before{content:"";position:absolute;right:2%;top:20px;width:370px;height:370px;border-radius:50%;background:radial-gradient(circle,#dcefe5 0,transparent 70%);z-index:-1}
+.overline{font-size:12px;letter-spacing:2px;text-transform:uppercase;font-weight:700;color:var(--green)}h1,h2,h3{font-family:Manrope,sans-serif;letter-spacing:-.7px}h1{font-size:clamp(43px,6vw,70px);line-height:1.08;letter-spacing:-3px;margin:18px 0 20px}h1 span{color:var(--green)}.intro{font-size:18px;line-height:1.8;color:#56635d;max-width:700px}.actions{display:flex;flex-wrap:wrap;gap:12px;margin-top:28px}.btn{display:inline-flex;align-items:center;gap:8px;padding:12px 18px;border-radius:7px;font-size:13px;font-weight:700;transition:.22s}.btn:hover{transform:translateY(-3px)}.primary{background:var(--green);color:white;box-shadow:0 8px 20px #176b562b}.primary:hover{background:#105641}.outline{border:1px solid #cbd8cf;background:#ffffffbd}.outline:hover{border-color:var(--green);background:white}
+.summary-card{background:white;border:1px solid var(--line);border-radius:14px;padding:25px;box-shadow:var(--shadow);transform:rotate(1deg);transition:.3s}.summary-card:hover{transform:rotate(0) translateY(-5px)}.summary-card .number{font:800 35px Manrope;letter-spacing:-2px}.summary-card p{margin:0;color:var(--muted);font-size:13px}.summary-card hr{border:0;border-top:1px solid var(--line);margin:17px 0}
+section{padding:78px 0;border-top:1px solid var(--line)}.section-head{display:flex;justify-content:space-between;align-items:end;gap:25px;margin-bottom:29px}.section-head h2{font-size:34px;line-height:1.2;margin:8px 0 0}.section-head p{max-width:500px;color:var(--muted);font-size:14px;margin:0}
+.intro-grid{display:grid;grid-template-columns:1.05fr .95fr;gap:25px}.about-card,.focus-card{background:white;border:1px solid var(--line);border-radius:12px;padding:25px}.about-card p,.focus-card p{color:var(--muted);font-size:14px;margin:0 0 12px}.focus-list{display:grid;grid-template-columns:1fr 1fr;gap:10px}.focus{padding:13px;background:#f5f8f5;border-radius:8px;font-size:13px;font-weight:600}.focus small{display:block;color:var(--muted);font-weight:400;margin-top:3px}
+.case{background:white;border:1px solid var(--line);border-radius:13px;overflow:hidden;transition:transform .28s,box-shadow .28s}.case:hover{transform:translateY(-4px);box-shadow:var(--shadow)}.case-top{padding:25px 28px 16px}.case-label{font-size:11px;font-weight:700;letter-spacing:1.2px;text-transform:uppercase;color:var(--green)}.case h3{font-size:22px;margin:5px 0}.case-top p{font-size:14px;color:var(--muted);margin:0}.case-content{display:grid;grid-template-columns:1fr 1fr;gap:27px;padding:0 28px 22px}.case-content h4{font-size:12px;letter-spacing:1px;text-transform:uppercase;color:#53645c;margin:12px 0 7px}.case-content p,.case-content li{font-size:14px;color:#59665f}.case-content p{margin:0 0 9px}.case-content ul{padding-left:18px;margin:4px 0}.case-content li{padding:3px 0}.tags{display:flex;flex-wrap:wrap;gap:7px;padding:0 28px 25px}.tag{font-size:11px;padding:5px 10px;border-radius:4px;background:#f0f5f1;color:#3e5c4d;border:1px solid #e3ece5}
+.case-grid{display:grid;grid-template-columns:1fr 1fr;gap:18px;margin-top:18px}.case-grid .case-content{display:block;padding-top:0}.case-grid .case-top{padding-bottom:12px}.case-grid .case-content h4{margin-top:10px}.small-note{font-size:12px;color:#77837d;margin-top:14px}
+.skills{display:grid;grid-template-columns:repeat(3,1fr);gap:13px}.skill{background:white;border:1px solid var(--line);border-radius:10px;padding:20px;transition:.22s}.skill:hover{transform:translateY(-4px);border-color:#a9c9b8;box-shadow:0 10px 25px #1f3a4710}.skill h3{font-size:15px;margin:0 0 8px}.skill p{font-size:13px;color:var(--muted);margin:0}
+.flow{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin-top:18px}.flow-step{padding:16px;background:white;border:1px solid var(--line);border-radius:9px}.flow-step b{display:block;font-size:13px}.flow-step span{font-size:12px;color:var(--muted)}.flow-arrow{color:var(--green);font-size:18px}
+.timeline{border-left:1px solid #cbd8cf;margin-left:8px;padding-left:27px;max-width:820px}.role{position:relative;padding:0 0 24px}.role:before{content:"";position:absolute;width:9px;height:9px;border-radius:50%;background:var(--green);left:-32px;top:9px;box-shadow:0 0 0 5px var(--paper)}.role h3{font-size:17px;margin:0}.date{font-size:12px;color:var(--green);font-weight:700}.role p{font-size:14px;color:var(--muted);margin:4px 0}
+.contact{background:#eaf3ed;border:1px solid #dce9df;border-radius:14px;padding:34px;display:flex;justify-content:space-between;align-items:center;gap:25px}.contact h2{font-size:29px;margin:7px 0}.contact p{color:var(--muted);font-size:14px;margin:0}
+footer{padding:25px 0;color:#75827b;font-size:12px}.footer{border-top:1px solid var(--line);padding-top:20px;display:flex;justify-content:space-between}
+.reveal{opacity:0;transform:translateY(20px);transition:opacity .7s ease,transform .7s ease}.reveal.visible{opacity:1;transform:none}
+@media(max-width:820px){.hero{grid-template-columns:1fr;gap:32px;padding:70px 0}.summary-card{max-width:400px}.section-head{display:block}.section-head p{margin-top:10px}.intro-grid,.case-content,.case-grid{grid-template-columns:1fr}.skills{grid-template-columns:1fr 1fr}.flow{grid-template-columns:1fr 1fr}}
+@media(max-width:560px){.wrap{width:calc(100% - 30px)}nav{height:64px}.navlinks{gap:11px;font-size:11px}.navlinks a:nth-child(2){display:none}h1{letter-spacing:-2px}.skills,.focus-list,.flow{grid-template-columns:1fr}.case-top,.case-content{padding-left:19px;padding-right:19px}.tags{padding-left:19px;padding-right:19px}.contact{display:block;padding:24px}.footer{display:block}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{transition:none!important}.reveal{opacity:1;transform:none}}
+</style>
 </head>
 <body>
-  <div class="ambient ambient-one"></div><div class="ambient ambient-two"></div>
-  <header class="site-header">
-    <a class="brand" href="#home" aria-label="Rajat Jain home">RJ<span>.</span></a>
-    <button class="menu-toggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
-    <nav class="nav" aria-label="Main navigation">
-      <a href="#about">About</a><a href="#skills">Skills</a><a href="#experience">Experience</a><a href="#projects">Projects</a><a href="#work">AI Work</a><a href="#contact" class="nav-cta">Contact</a>
-    </nav>
-  </header>
+<header><div class="wrap"><nav><a class="logo" href="#home">Rajat Jain<span>.</span></a><div class="navlinks"><a href="#about">About</a><a href="#work">Projects</a><a href="#skills">Skills</a><a href="#experience">Experience</a><a href="#contact">Contact</a></div></nav></div></header>
+<main class="wrap">
+<section class="hero" id="home" style="border:0">
+<div class="reveal">
+<div class="overline">Full-Stack Software Engineer · Jaipur, India</div>
+<h1>Rajat Jain — building <span>web products</span> from UI to APIs.</h1>
+<p class="intro">I’m a software engineer with 9+ years of experience, strongest in frontend development and increasingly working across the full stack. I build React and TypeScript interfaces, connect them to Node.js and Python services, and have hands-on experience integrating LLMs and retrieval-based AI features.</p>
+<div class="actions"><a class="btn primary" href="#work">Explore my work ↘</a><a class="btn outline" href="Rajat_Jain_Resumegithub.pdf" target="_blank" rel="noopener">View resume ↗</a><a class="btn outline" href="mailto:rajatjain0408@gmail.com">Contact me</a></div>
+</div>
+<aside class="summary-card reveal"><div class="overline">At a glance</div><div class="number">9+ years</div><p>Software development experience, primarily in frontend engineering</p><hr><div class="number">UI → API → AI</div><p>Comfortable contributing across the application flow, from user interface to service integration and retrieval workflows</p></aside>
+</section>
 
-  <main>
-    <section class="hero section" id="home">
-      <div class="hero-copy">
-        <div class="eyebrow"><span class="status-dot"></span> SENIOR SOFTWARE ENGINEER · JAIPUR, INDIA</div>
-        <p class="hello">Hello, I'm</p>
-        <h1>Rajat <span>Jain.</span></h1>
-        <h2>Building thoughtful interfaces<br class="desktop-break"> and <span class="gradient-text">AI-powered applications.</span></h2>
-        <p class="hero-description">9+ years of frontend engineering experience, combining React and TypeScript expertise with hands-on full-stack development and Generative AI integration.</p>
-        <div class="hero-actions">
-          <a class="button button-primary" href="#experience">Explore my experience <span>↗</span></a>
-          <a class="button button-secondary" href="assets/Rajat_Jain_Resumegithub.pdf" target="_blank" rel="noopener">View resume <span>↓</span></a>
-        </div>
-        <div class="quick-facts">
-          <div><strong>9+</strong><span>Years experience</span></div>
-          <div><strong>5</strong><span>Companies</span></div>
-          <div><strong>AI</strong><span>Product engineering</span></div>
-        </div>
-      </div>
-      <div class="hero-card-wrap" aria-label="Professional focus">
-        <div class="orbit orbit-a"></div><div class="orbit orbit-b"></div>
-        <div class="profile-card">
-          <div class="card-top"><span>ENGINEERING FOCUS</span><span class="live-pill">● ACTIVE</span></div>
-          <div class="monogram">RJ<span>.</span></div>
-          <h3>Frontend × AI</h3>
-          <p>Turning complex requirements into accessible, maintainable product experiences.</p>
-          <div class="focus-list">
-            <div><span class="focus-icon">01</span><span>Frontend architecture</span><b>↗</b></div>
-            <div><span class="focus-icon">02</span><span>AI & LLM integration</span><b>↗</b></div>
-            <div><span class="focus-icon">03</span><span>Full-stack delivery</span><b>↗</b></div>
-          </div>
-          <div class="card-footer"><span>REACT</span><span>TYPESCRIPT</span><span>RAG</span></div>
-        </div>
-      </div>
-      <a class="scroll-cue" href="#about">SCROLL TO EXPLORE <span>↓</span></a>
-    </section>
+<section id="about">
+<div class="section-head reveal"><div><div class="overline">About me</div><h2>Frontend depth, full-stack perspective.</h2></div><p>I like understanding how a feature works end to end — what the user sees, what the API needs to return and how the data gets there.</p></div>
+<div class="intro-grid reveal">
+<div class="about-card"><p>My career began with building and maintaining web interfaces. Over the years, I’ve worked with React, JavaScript and TypeScript, created reusable components, integrated REST APIs and collaborated closely with backend engineers, designers and product managers.</p><p>More recently, I’ve taken on work involving Node.js and Python APIs, LLM integration and RAG concepts. I’ve also built a local research chatbot to get practical experience with document processing, embeddings, vector search and model evaluation.</p><p>I’m interested in roles where I can contribute across the stack while continuing to bring strong frontend engineering and product thinking to the team.</p></div>
+<div class="focus-card"><div class="overline">How I contribute</div><div class="focus-list"><div class="focus">Frontend applications<small>React, TypeScript, UI architecture</small></div><div class="focus">Backend integration<small>Node.js, Python, REST APIs</small></div><div class="focus">AI features<small>LLMs, RAG, embeddings, FAISS</small></div><div class="focus">Engineering quality<small>Accessibility, validation, reviews</small></div></div></div>
+</div>
+</section>
 
-    <section class="section about-section" id="about">
-      <div class="section-label">01 / ABOUT</div>
-      <div class="section-heading"><h2>Engineering with<br><span class="muted">purpose and precision.</span></h2></div>
-      <div class="about-grid">
-        <p class="about-lead">I'm a Senior Software Engineer with 9+ years of frontend experience, specializing in modern web applications and AI-powered product experiences.</p>
-        <div class="about-detail">
-          <p>My core expertise is in React.js, TypeScript and JavaScript, supported by Next.js, Svelte, Node.js, Python and API integration. I build reusable, accessible UI components and design systems, and work across the application lifecycle—from implementation and code reviews to CI/CD and cloud deployment.</p>
-          <p>More recently, my work has included LLM-powered applications, prompt engineering, Retrieval-Augmented Generation (RAG), embeddings and FAISS vector search.</p>
-          <div class="about-tags"><span>Accessible UI</span><span>Reusable systems</span><span>Secure coding</span><span>Collaborative delivery</span></div>
-        </div>
-      </div>
-    </section>
+<section id="work">
+<div class="section-head reveal"><div><div class="overline">Selected projects</div><h2>Work across the stack</h2></div><p>These examples reflect the work described in my resume and the technical project I built independently. I’ve kept the scope specific and honest.</p></div>
+<article class="case reveal">
+<div class="case-top"><div class="case-label">Nagarro · Professional experience</div><h3>AI-powered application — UI, APIs and retrieval</h3><p>Contributed to an AI-enabled application by building React screens and working on the API and retrieval pieces behind the experience.</p></div>
+<div class="case-content">
+<div><h4>My contribution</h4><ul><li>Built 10+ React.js and TypeScript screens with reusable, accessible components.</li><li>Developed supporting APIs using Node.js and Python.</li><li>Worked on RAG retrieval using FAISS vector search and an Ollama-based LLM workflow.</li><li>Supported cloud deployment and CI/CD release activities.</li><li>Applied authentication, input validation, security reviews and code reviews as part of delivery.</li></ul></div>
+<div><h4>Problem I was solving</h4><p>The application needed a usable interface for AI-assisted workflows, while the AI response needed relevant context to make the experience more useful.</p><h4>How I approached it</h4><p>I worked on the React screens and connected them with the supporting APIs. On the retrieval side, FAISS was used to find relevant context for the LLM workflow. I also paid attention to the practical UI details around API integration, accessibility, validation and maintainability.</p><h4>Stack</h4><p>React.js, TypeScript, Node.js, Python, REST APIs, RAG, FAISS, Ollama, CI/CD.</p></div>
+</div><div class="tags"><span class="tag">React.js</span><span class="tag">TypeScript</span><span class="tag">Node.js</span><span class="tag">Python</span><span class="tag">REST APIs</span><span class="tag">RAG</span><span class="tag">FAISS</span><span class="tag">Ollama</span><span class="tag">CI/CD</span></div>
+</article>
 
-    <section class="section skills-section" id="skills">
-      <div class="section-label">02 / TOOLKIT</div>
-      <div class="section-heading"><h2>Skills & <span class="muted">technologies.</span></h2><p>A practical toolkit across frontend engineering, APIs and AI-enabled applications.</p></div>
-      <div class="skills-grid">
-        <article class="skill-card"><div class="skill-number">01</div><h3>Frontend</h3><p>React.js · Next.js · Svelte · TypeScript · JavaScript (ES6+) · HTML5 · CSS3 · Redux Toolkit</p></article>
-        <article class="skill-card"><div class="skill-number">02</div><h3>AI & Generative AI</h3><p>LLMs · Prompt Engineering · RAG · AI API Integration · Embeddings · Vector Search · FAISS · Ollama</p></article>
-        <article class="skill-card"><div class="skill-number">03</div><h3>Backend & APIs</h3><p>Node.js · Python · REST API Integration · GraphQL</p></article>
-        <article class="skill-card"><div class="skill-number">04</div><h3>Cloud & Security</h3><p>Cloud Deployment · CI/CD · Authentication · Input Validation · Security Reviews · Code Reviews</p></article>
-        <article class="skill-card"><div class="skill-number">05</div><h3>Quality & Tooling</h3><p>Jest · Webpack · Vite · Git · GitHub · Figma · Jira</p></article>
-        <article class="skill-card"><div class="skill-number">06</div><h3>UI Engineering</h3><p>Design Systems · WCAG Accessibility · Reusable Components · Responsive Interfaces</p></article>
-      </div>
-      <div class="language-note"><span>LANGUAGES</span> JavaScript · TypeScript · Python · Node.js · Hands-on C#, Java and C++</div>
-      <div class="full-skills">
-        <span>ADDITIONAL ENGINEERING PRACTICES</span>
-        <p>Component-based architecture · Responsive web development · Frontend performance optimization · Cross-browser compatibility · Microfrontend architecture · GraphQL · Enzyme · Bootstrap · Tailwind CSS · Material UI · Storybook · Webpack · Babel · npm · Yarn · pnpm · GitLab · Bitbucket · Adobe XD · Sketch · Photoshop · Highcharts</p>
-      </div>
-    </section>
+<div class="case-grid">
+<article class="case reveal">
+<div class="case-top"><div class="case-label">Independent project · AI / Python</div><h3>RAG Research Chatbot</h3><p>A local document question-answering project built to understand the complete retrieval-to-generation flow.</p></div>
+<div class="case-content"><h4>Problem</h4><p>When asking questions about long documents, searching manually takes time. A language model can also produce answers without enough supporting context.</p><h4>What I built</h4><p>Created a Python pipeline to read documents, split text into chunks, generate embeddings, store vectors in FAISS, retrieve relevant passages and pass that context to a local Ollama model.</p><h4>What I tested</h4><p>The project generated 765 chunks with <b>all-MiniLM-L6-v2</b> and used <b>llama3.2:3b</b>. I ran 10 evaluation questions and recorded 58.33% average keyword coverage. That gave me a baseline and highlighted the need to improve retrieval and answer relevance.</p><h4>Stack</h4><p>Python, sentence-transformers, embeddings, FAISS, Ollama, Llama 3.2.</p></div>
+<div class="tags"><span class="tag">Python</span><span class="tag">RAG</span><span class="tag">Embeddings</span><span class="tag">FAISS</span><span class="tag">Ollama</span></div>
+</article>
+<article class="case reveal">
+<div class="case-top"><div class="case-label">Wipro · Professional experience</div><h3>Reusable React components and API integration</h3><p>Frontend feature development for web applications, with a focus on component reuse and reliable API integration.</p></div>
+<div class="case-content"><h4>Problem</h4><p>Repeated UI patterns can become inconsistent, and screens that depend on multiple APIs need clear coordination between frontend and backend contracts.</p><h4>What I worked on</h4><p>Built 20+ reusable React components using JavaScript and TypeScript and integrated 15+ REST API endpoints.</p><h4>How I approached it</h4><p>Created shared components for common UI patterns, connected screens to backend endpoints and worked with backend engineers, product managers and designers to clarify requirements and expected data.</p><h4>Stack</h4><p>React.js, JavaScript, TypeScript, REST APIs, Git.</p></div>
+<div class="tags"><span class="tag">React.js</span><span class="tag">JavaScript</span><span class="tag">TypeScript</span><span class="tag">REST APIs</span></div>
+</article>
+<article class="case reveal">
+<div class="case-top"><div class="case-label">ATCS · Professional experience</div><h3>Reusable UI and cross-browser consistency</h3><p>React component development and resolving UI behaviour differences across browsers.</p></div>
+<div class="case-content"><h4>Problem</h4><p>Layouts and interactions can render differently across browsers, affecting the consistency of a web application.</p><h4>What I worked on</h4><p>Developed 15+ reusable React and TypeScript components and resolved cross-browser UI issues.</p><h4>Approach</h4><p>Investigated layout and styling differences, corrected component-level issues and kept shared UI patterns maintainable.</p><h4>Stack</h4><p>React.js, TypeScript, JavaScript, CSS.</p></div>
+<div class="tags"><span class="tag">React.js</span><span class="tag">TypeScript</span><span class="tag">CSS</span></div>
+</article>
+<article class="case reveal">
+<div class="case-top"><div class="case-label">Webcontxt & Anktech · Earlier experience</div><h3>Web application interfaces</h3><p>Building, maintaining and improving interactive web interfaces.</p></div>
+<div class="case-content"><h4>What I worked on</h4><p>Developed React interfaces and interactive components using JavaScript, maintained existing screens and resolved UI issues.</p><h4>What I took forward</h4><p>This work built my foundation in responsive layouts, debugging, component development and keeping existing applications stable while making changes.</p><h4>Stack</h4><p>React.js, JavaScript, HTML5, CSS3.</p></div>
+<div class="tags"><span class="tag">React.js</span><span class="tag">JavaScript</span><span class="tag">HTML5</span><span class="tag">CSS3</span></div>
+</article>
+</div>
+<p class="small-note">Professional project descriptions are intentionally high-level and exclude confidential customer or internal product details. The RAG Research Chatbot is an independent project, not a customer production deployment.</p>
+</section>
 
-    <section class="section experience-section" id="experience">
-      <div class="section-label">03 / CAREER</div>
-      <div class="section-heading"><h2>Experience that <span class="muted">scales.</span></h2><p>Progressively building and maintaining web experiences across product teams.</p></div>
-      <div class="timeline">
-        <article class="timeline-item current">
-          <div class="timeline-meta"><span>MAR 2024 — PRESENT</span><span class="current-label">CURRENT</span></div>
-          <div class="timeline-content"><h3>Senior AI Frontend Engineer</h3><h4>Nagarro Private Limited <span>· Jaipur</span></h4>
-            <ul>
-              <li>Built 10+ React.js and TypeScript screens for an AI-powered application using LLMs and Ollama.</li>
-              <li>Developed backend APIs in Node.js and Python, including RAG retrieval with FAISS vector search.</li>
-              <li>Deployed applications using cloud services and CI/CD pipelines.</li>
-              <li>Applied secure coding practices including authentication, input validation and security reviews.</li>
-              <li>Collaborated with product managers, designers and backend engineers; contributed to code reviews and code quality.</li>
-            </ul><div class="work-tags"><span>React</span><span>TypeScript</span><span>Ollama</span><span>FAISS</span><span>Node.js</span><span>Python</span></div>
-          </div>
-        </article>
-        <article class="timeline-item">
-          <div class="timeline-meta"><span>MAR 2022 — MAR 2024</span></div>
-          <div class="timeline-content"><h3>Front End Developer</h3><h4>Wipro Private Limited <span>· Jaipur</span></h4>
-            <ul><li>Built 20+ reusable React.js components using JavaScript and TypeScript.</li><li>Integrated 15+ REST API endpoints to support scalable web application development.</li><li>Worked with backend engineers, product managers and designers to deliver features; performed code reviews.</li></ul>
-            <div class="work-tags"><span>React</span><span>JavaScript</span><span>TypeScript</span><span>REST APIs</span></div>
-          </div>
-        </article>
-        <article class="timeline-item">
-          <div class="timeline-meta"><span>JAN 2021 — MAR 2022</span></div>
-          <div class="timeline-content"><h3>Front End Developer</h3><h4>ATCS <span>· Jaipur</span></h4>
-            <ul><li>Developed 15+ reusable React.js and TypeScript components across web applications.</li><li>Resolved cross-browser UI issues, improving interface consistency and maintainability.</li></ul>
-            <div class="work-tags"><span>React</span><span>TypeScript</span><span>Cross-browser UI</span></div>
-          </div>
-        </article>
-        <article class="timeline-item">
-          <div class="timeline-meta"><span>AUG 2020 — DEC 2020</span></div>
-          <div class="timeline-content"><h3>Front End Developer</h3><h4>Webcontxt <span>· Jaipur</span></h4>
-            <ul><li>Developed interactive React.js components in JavaScript, delivering responsive and consistent interfaces.</li></ul>
-            <div class="work-tags"><span>React</span><span>JavaScript</span><span>Responsive UI</span></div>
-          </div>
-        </article>
-        <article class="timeline-item">
-          <div class="timeline-meta"><span>APR 2017 — JUL 2020</span></div>
-          <div class="timeline-content"><h3>Front End Developer</h3><h4>Anktech Software Private Limited <span>· Jaipur</span></h4>
-            <ul><li>Developed and maintained React.js interfaces in JavaScript for web applications.</li><li>Resolved UI issues to improve responsiveness and user experience.</li></ul>
-            <div class="work-tags"><span>React</span><span>JavaScript</span><span>UI Development</span></div>
-          </div>
-        </article>
-      </div>
-    </section>
+<section id="skills">
+<div class="section-head reveal"><div><div class="overline">Technical skills</div><h2>My development toolkit</h2></div><p>My strongest experience is in React-based application development, supported by hands-on backend, API and AI integration work.</p></div>
+<div class="skills reveal">
+<div class="skill"><h3>Frontend development</h3><p>React.js, Next.js, TypeScript, JavaScript (ES6+), Redux Toolkit, Svelte, HTML5, CSS3</p></div>
+<div class="skill"><h3>Backend development</h3><p>Node.js, Python, REST API development and integration, GraphQL</p></div>
+<div class="skill"><h3>Generative AI & retrieval</h3><p>LLMs, prompt engineering, RAG, embeddings, vector search, FAISS, Ollama</p></div>
+<div class="skill"><h3>Cloud & delivery</h3><p>Cloud deployment, CI/CD pipelines, build and release workflows</p></div>
+<div class="skill"><h3>Security & code quality</h3><p>Authentication, input validation, secure coding practices, security reviews, code reviews</p></div>
+<div class="skill"><h3>Testing & developer tools</h3><p>Jest, Webpack, Vite, Git, GitHub, Figma, Jira, WCAG accessibility</p></div>
+</div>
+<div class="flow reveal">
+<div class="flow-step"><b>1. User experience</b><span>React / TypeScript</span></div>
+<div class="flow-step"><b>2. Application layer</b><span>Node.js / Python APIs</span></div>
+<div class="flow-step"><b>3. AI / data layer</b><span>RAG / embeddings / FAISS</span></div>
+<div class="flow-step"><b>4. Delivery</b><span>Cloud / CI/CD / security</span></div>
+</div>
+</section>
 
-    <section class="section projects-section" id="projects">
-      <div class="section-label">04 / SELECTED PROJECTS</div>
-      <div class="section-heading">
-        <h2>Projects & <span class="muted">client experience.</span></h2>
-        <p>A selection of digital projects and client experiences I have been part of.</p>
-      </div>
-      <div class="project-grid">
-        <article class="project-card">
-          <div class="project-top"><span>PROJECT 01</span><span class="project-symbol">01</span></div>
-          <div class="project-art career-art"><div class="art-lines"></div><span>CAREER<br>DEVELOPMENT</span></div>
-          <h3>Career Development Project</h3>
-          <p>A career growth platform designed to help users explore career paths, identify development goals and manage their professional growth.</p>
-        </article>
+<section id="experience">
+<div class="section-head reveal"><div><div class="overline">Career history</div><h2>Experience</h2></div><p>More than nine years building and supporting web applications, with growing responsibility across APIs and AI-powered features.</p></div>
+<div class="timeline reveal">
+<div class="role"><h3>Senior AI Frontend Engineer · Nagarro</h3><div class="date">Mar 2024 — Present · Jaipur</div><p>React/TypeScript screens, Node.js and Python APIs, LLM integration, RAG retrieval, cloud delivery and secure coding practices.</p></div>
+<div class="role"><h3>Front End Developer · Wipro</h3><div class="date">Mar 2022 — Mar 2024 · Jaipur</div><p>20+ reusable React components and 15+ REST API integrations.</p></div>
+<div class="role"><h3>Front End Developer · ATCS</h3><div class="date">Jan 2021 — Mar 2022 · Jaipur</div><p>15+ React/TypeScript components and cross-browser UI fixes.</p></div>
+<div class="role"><h3>Front End Developer · Webcontxt</h3><div class="date">Aug 2020 — Dec 2020</div><p>Interactive React components and responsive interfaces.</p></div>
+<div class="role"><h3>Front End Developer · Anktech Software</h3><div class="date">Apr 2017 — Jul 2020</div><p>React interfaces, JavaScript development and UI maintenance.</p></div>
+</div>
+</section>
 
-        <article class="project-card">
-          <div class="project-top"><span>PROJECT 02</span><span class="project-symbol">02</span></div>
-          <div class="project-art schneider-art"><div class="schneider-mark">S<span>.</span>E</div><span>ENERGY<br>& DIGITAL</span></div>
-          <h3>Schneider Electric</h3>
-          <p>A digital experience for Schneider Electric, supporting the presentation and discovery of its energy management and automation solutions. Project work included the Svelte and Builder.io environment, PLP and Charge app validation.</p>
-          <div class="project-tags"><span>Svelte</span><span>Builder.io</span><span>Accessibility</span></div>
-        </article>
-
-        <article class="project-card">
-          <div class="project-top"><span>PROJECT 03</span><span class="project-symbol">03</span></div>
-          <div class="project-art bridge-art"><div class="bridge-span"><i></i><i></i><i></i><i></i></div><span>CLIFTON<br>SUSPENSION BRIDGE</span></div>
-          <h3>Clifton Suspension Bridge</h3>
-          <p>A web experience centered on the iconic Clifton Suspension Bridge, giving visitors an overview of the landmark, its history and visitor information.</p>
-        </article>
-      </div>
-    </section>
-
-    <section class="section work-section" id="work">
-      <div class="section-label">05 / AI ENGINEERING</div>
-      <div class="section-heading"><h2>Bringing AI into <span class="muted">the product.</span></h2><p>Hands-on experience building AI-enabled application capabilities.</p></div>
-      <article class="ai-feature">
-        <div class="ai-visual"><div class="ai-glow"></div><div class="ai-window"><div class="window-bar"><i></i><i></i><i></i><span>RAG PIPELINE</span></div><div class="pipeline"><div class="pipeline-node">DOCUMENTS</div><b>↓</b><div class="pipeline-node accent-node">EMBEDDINGS</div><b>↓</b><div class="pipeline-node">FAISS VECTOR SEARCH</div><b>↓</b><div class="pipeline-node accent-node">LLM RESPONSE</div></div></div></div>
-        <div class="ai-copy"><span class="feature-kicker">FEATURED ENGINEERING WORK</span><h3>LLM-powered application with RAG retrieval</h3><p>At Nagarro, built frontend screens and supporting backend APIs for an AI-powered application. The implementation included LLM integration with Ollama and retrieval using FAISS vector search.</p><ul><li>React.js and TypeScript user interfaces</li><li>Node.js and Python backend APIs</li><li>RAG retrieval and vector search with FAISS</li><li>Cloud deployment and CI/CD delivery</li></ul><div class="work-tags"><span>LLMs</span><span>Ollama</span><span>RAG</span><span>FAISS</span><span>Embeddings</span></div></div>
-      </article>
-      <p class="project-note">Project details are intentionally kept at a high level. Add public demos or source-code links only where sharing is permitted.</p>
-    </section>
-
-    <section class="section education-section">
-      <div class="section-label">06 / EDUCATION</div>
-      <div class="education-card"><div class="education-mark">BE</div><div><h3>Bachelor of Engineering</h3><p>Electrical, Electronics and Communications Engineering</p><span>Birla Institute of Technology, Mesra · August 2016</span></div></div>
-    </section>
-
-    <section class="section contact-section" id="contact">
-      <div class="section-label">07 / CONTACT</div>
-      <div class="contact-panel"><span class="feature-kicker">LET'S CONNECT</span><h2>Have a product to build<br>or a challenge to solve?</h2><p>I'm always open to meaningful conversations about engineering, frontend platforms and AI-powered applications.</p>
-        <a class="button button-primary" href="mailto:rajatjain0408@gmail.com">Email me <span>↗</span></a>
-        <div class="contact-links"><a href="mailto:rajatjain0408@gmail.com">rajatjain0408@gmail.com</a><a href="tel:+919680593198">+91 96805 93198</a><a href="https://linkedin.com/in/rajat-jain-756a05197" target="_blank" rel="noopener">LinkedIn ↗</a><a href="#home">Portfolio home ↗</a></div>
-      </div>
-    </section>
-  </main>
-  <footer><a class="brand" href="#home">RJ<span>.</span></a><span>© <span id="year"></span> Rajat Jain. Built with care.</span><a href="#home">Back to top ↑</a></footer>
-  <script src="script.js"></script>
-</body>
-</html>
+<section id="contact">
+<div class="contact reveal"><div><div class="overline">Get in touch</div><h2>Let’s build something useful.</h2><p>Interested in full-stack engineering, React applications and practical AI-powered products.</p></div><div class="actions"><a class="btn primary" href="mailto:rajatjain0408@gmail.com">Email Rajat ↗</a><a class="btn outline" href="https://www.linkedin.com/in/rajat-jain-756a05197/" target="_blank" rel="noopener">LinkedIn ↗</a><a class="btn outline" href="https://github.com/rajatjain0408" target="_blank" rel="noopener">GitHub ↗</a></div></div>
+</section>
+</main>
+<footer><div class="wrap footer"><span>© <span id="year"></span> Rajat Jain</span><span>Jaipur, India · Full-Stack Software Engineer</span></div></footer>
+<script>
+document.getElementById('year').textContent=new Date().getFullYear();
+const observer=new IntersectionObserver(entries=>entries.forEach(entry=>{if(entry.isIntersecting){entry.target.classList.add('visible');observer.unobserve(entry.target)}}),{threshold:.12});
+document.querySelectorAll('.reveal').forEach(el=>observer.observe(el));
+</script>
+</body></html>
